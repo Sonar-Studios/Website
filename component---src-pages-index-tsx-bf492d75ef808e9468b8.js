@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{QeBL:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),c=n.n(a);n("sFFT");t.default=function(){return Object(a.useEffect)((function(){document.title="Sonar Studios"}),[]),c.a.createElement("div",{className:"page"},c.a.createElement("h1",{className:"header"},"Hello, world!"))}},sFFT:function(e,t,n){}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-bf492d75ef808e9468b8.js.map
