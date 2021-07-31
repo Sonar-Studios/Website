@@ -11,7 +11,7 @@ interface LinkButtonProps {
 export default class LinkButton extends Component<LinkButtonProps, LinkButtonState> {
 	render() {
 		return (
-			<button className="linkButton" key="thing">
+			<button className="linkButton">
 				{this.props.text.toUpperCase()}
 			</button>
 		)
