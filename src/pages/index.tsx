@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "../stylesheets/styles.css";
 import LinkButton from "../components/linkButton";
+import SonarStudios from "../components/sonarStudios";
 
 import sonaria from "../images/sonaria.png";
 
@@ -14,14 +15,15 @@ export default () => {
 	return (
 		<div>
 			<div className="header">
-				<LinkButton text={"home"}/>
-				<LinkButton text={"games"}/>
-				<LinkButton text={"contact"}/>
-				<LinkButton text={"careers"}/>
+				<SonarStudios />
+				<div className="buttons">
+					<LinkButton text={"home"} />
+					<LinkButton text={"games"} />
+					<LinkButton text={"careers"} />
+					<LinkButton text={"contact"} />
+				</div>
 			</div>
-			<img className="banner" src={sonaria}>
-
-			</img>
+			<img className="banner" src={sonaria} />
 		</div>
 	);
 };
