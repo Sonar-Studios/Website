@@ -1,2 +1,41 @@
 @import "./variables.css";
 
+body {
+	margin: 0;
+}
+
+.header {
+	height: auto;
+	width: calc(100% - 40px);
+	padding: 10px;
+}
+
+.linkButton {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	width: 80px;
+	padding: 10px;
+	text-align: center;
+	transition: background 300ms;
+	margin-left: 10px;
+}
+
+.linkButton:hover {
+	background: crimson;
+}
+
+.linkButton:first-of-type {
+	margin-left: 0;
+}
+
+.linkButton:last-of-type {
+	margin-right: 0;
+}
+
+.banner {
+	width: 100%;
+	object-fit: cover;
+	height: 640px;
+}
+
