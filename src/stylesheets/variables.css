@@ -1,4 +1,14 @@
 :root {
 	--gradient1: #f6ff00;
 	--gradient2: #ff00e0;
+
+	/* --font: "Source Sans Pro"; */
+	/* --font: "Kanit"; */
+	/* --font: "Josefin Sans"; */
+	/* --font: "Secular One"; */
+	/* --font: "Archivo Black" */
+	/* --font: "Catamaran"; */
+	--font: "Montserrat";
+
+	--fallback-font: "sans-serif";
 }

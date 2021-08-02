@@ -14,6 +14,13 @@
     "deploy": "gatsby build && gh-pages -d public -b gh-pages -r https://github.com/Sonar-Studios/website.git"
   },
   "dependencies": {
+    "@fontsource/archivo-black": "^4.5.0",
+    "@fontsource/catamaran": "^4.5.0",
+    "@fontsource/josefin-sans": "^4.5.0",
+    "@fontsource/kanit": "^4.5.0",
+    "@fontsource/montserrat": "^4.5.0",
+    "@fontsource/secular-one": "^4.5.0",
+    "@fontsource/source-sans-pro": "^4.5.0",
     "gatsby": "^2.26.1",
     "gatsby-plugin-react-helmet": "^3.6.0",
     "react": "^16.14.0",

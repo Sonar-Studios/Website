@@ -1,0 +1,7 @@
+import "@fontsource/source-sans-pro"
+import "@fontsource/kanit"
+import "@fontsource/josefin-sans"
+import "@fontsource/secular-one"
+import "@fontsource/archivo-black"
+import "@fontsource/catamaran"
+import "@fontsource/montserrat/600.css"

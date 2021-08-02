@@ -9,8 +9,8 @@ export default class SonarStudios extends Component<SonarStudiosProps, SonarStud
 	render() {
 		return (
 			<div className="badge">
-				<img className="logo" src={logo} />
-				<h1>SONAR STUDIOS</h1>
+				<img className="badge-logo" src={logo} />
+				<h1 className="badge-title">SONAR STUDIOS</h1>
 			</div>
 		)
 	}

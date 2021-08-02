@@ -12,6 +12,7 @@ h2 {
 
 body {
 	margin: 0;
+	font-family: var(--font), var(--fallback-font);
 }
 
 .header {
@@ -32,7 +33,7 @@ body {
 	transition: background 150ms, border-color 150ms, color 150ms;
 	margin-left: 20px;
 	font-size: 14px;
-	font-weight: bold;
+	font-weight: 999;
 	background: white;
 	color: black;
 }
@@ -58,16 +59,20 @@ body {
 	background: linear-gradient(to bottom right, var(--gradient1), var(--gradient2));
 }
 
-.logo {
+.badge-logo {
 	height: 40px;
 	width: 40px;
-	margin-right: 20px;
+	margin-right: 10px;
 }
 
 .badge {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.badge-title {
+	font-weight: 900;
 }
 
 .content {
@@ -79,13 +84,13 @@ body {
 	width: 100%;
 	display: grid;
 	grid-template-columns: auto auto;
-	grid-row-gap: 40px;
 	grid-column-gap: 40px;
 }
 
 .card {
 	width: 100%;
 	height: auto;
+	margin-bottom: 40px;
 }
 
 .card-image {
@@ -96,6 +101,11 @@ body {
 
 .card-title {
 	text-align: center;
+}
+
+.card-body {
+	text-align: center;
+	font-weight: 200;
 }
 
 .pageHeader {

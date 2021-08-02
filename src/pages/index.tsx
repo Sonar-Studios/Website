@@ -28,7 +28,7 @@ export default () => {
 					<LinkButton text={"contact"} />
 				</div>
 			</div>
-			
+
 			{/* homepage banner */}
 			<img className="banner" src={sonaria} />
 
@@ -36,19 +36,53 @@ export default () => {
 			<div className="content">
 				<PageHeader text={"what's hot"} />
 				<div className="grid">
-					<ContentCard img={tacoblox} title={"chalupa on sale"} />
-					<ContentCard img={tacoblox} title={"chalupa on sale"} />
-					<ContentCard img={tacoblox} title={"chalupa on sale"} />
-					<ContentCard img={tacoblox} title={"chalupa on sale"} />
-					<ContentCard img={tacoblox} title={"chalupa on sale"} />
-					<ContentCard img={tacoblox} title={"chalupa on sale"} />
+					<ContentCard
+						img={tacoblox}
+						title={"chalupa on sale"}
+						body={
+							"get a chalupa on sale now for half off with code edp445"
+						}
+					/>
+					<ContentCard
+						img={tacoblox}
+						title={"chalupa on sale"}
+						body={
+							"get a chalupa on sale now for half off with code edp445"
+						}
+					/>
+					<ContentCard
+						img={tacoblox}
+						title={"chalupa on sale"}
+						body={
+							"get a chalupa on sale now for half off with code edp445"
+						}
+					/>
+					<ContentCard
+						img={tacoblox}
+						title={"chalupa on sale"}
+						body={
+							"get a chalupa on sale now for half off with code edp445"
+						}
+					/>
+					<ContentCard
+						img={tacoblox}
+						title={"chalupa on sale"}
+						body={
+							"get a chalupa on sale now for half off with code edp445"
+						}
+					/>
+					<ContentCard
+						img={tacoblox}
+						title={"chalupa on sale"}
+						body={
+							"get a chalupa on sale now for half off with code edp445"
+						}
+					/>
 				</div>
 			</div>
 
-			{/* page closer */}
-			<div>
-				
-			</div>
+			{/* page footer */}
+			<div></div>
 		</div>
 	);
 };
