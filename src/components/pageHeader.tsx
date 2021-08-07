@@ -12,7 +12,7 @@ export default class PageHeader extends Component<PageHeaderProps, PageHeaderSta
 	render() {
 		return (
 			<h1 className="pageHeader">
-				{this.props.text.toUpperCase()}
+				{this.props.text}
 			</h1>
 		)
 	}
