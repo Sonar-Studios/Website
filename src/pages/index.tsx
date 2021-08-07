@@ -5,7 +5,6 @@ import LinkButton from "../components/linkButton";
 import SonarStudios from "../components/sonarStudios";
 import ContentCard from "../components/contentCard";
 import PageHeader from "../components/pageHeader";
-import ContentReel from "../components/contentReel";
 
 import logo from "../images/logo.png";
 import sonaria from "../images/sonaria.png";
@@ -15,6 +14,7 @@ import captive_title from "../images/captive_title.png";
 import warships_title from "../images/warships_title.png";
 import sunnyshores_title from "../images/sunnyshores_title.png";
 import felinesdestiny_title from "../images/felinesdestiny_title.png";
+import StatCard from "../components/statCard";
 
 // we use a functional component for initial render because we can't use
 // hooks in class components, it sucks but that's what we gotta do
@@ -54,7 +54,13 @@ export default () => {
 			{/* stats content */}
 			<div className="content">
 				<PageHeader text={"stats"} />
-				<div className="grid"></div>
+				<StatCard stat="unique game sessions" value="420,000,000+" strong={true} />
+				<div className="grid">
+					<StatCard stat="collective favorites" value="1.8m+" />
+					<StatCard stat="community members" value="1.4m+" />
+					<StatCard stat="combined likes" value="501k+" />
+					<StatCard stat="average game rating" value="86%" />
+				</div>
 			</div>
 
 			<div className="section">
