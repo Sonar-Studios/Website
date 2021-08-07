@@ -6,8 +6,14 @@ import SonarStudios from "../components/sonarStudios";
 import ContentCard from "../components/contentCard";
 import PageHeader from "../components/pageHeader";
 
+import logo from "../images/logo.png";
 import sonaria from "../images/sonaria.png";
-import tacoblox from "../images/tacoblox.jpg";
+import dragonadventures_title from "../images/dragonadventures_title.png";
+import sonaria_title from "../images/sonaria_title.png";
+import captive_title from "../images/captive_title.png";
+import warships_title from "../images/warships_title.png";
+import sunnyshores_title from "../images/sunnyshores_title.png";
+import felinesdestiny_title from "../images/felinesdestiny_title.png";
 
 // we use a functional component for initial render because we can't use
 // hooks in class components, it sucks but that's what we gotta do
@@ -23,7 +29,6 @@ export default () => {
 				<SonarStudios />
 				<div className="buttons">
 					<LinkButton text={"home"} />
-					<LinkButton text={"games"} />
 					<LinkButton text={"careers"} />
 					<LinkButton text={"contact"} />
 				</div>
@@ -32,57 +37,66 @@ export default () => {
 			{/* homepage banner */}
 			<img className="banner" src={sonaria} />
 
-			{/* homepage content */}
+			{/* stats content */}
 			<div className="content">
-				<PageHeader text={"what's hot"} />
+				<PageHeader text={"stats"} />
+				<div className="grid">
+					
+				</div>
+			</div>
+
+			<div className="section">
+				<PageHeader text={"titles"} />
+				<div className="content">
 				<div className="grid">
 					<ContentCard
-						img={tacoblox}
-						title={"chalupa on sale"}
+						img={dragonadventures_title}
+						title={"dragon adventures"}
 						body={
-							"get a chalupa on sale now for half off with code edp445"
+							"a description"
 						}
 					/>
 					<ContentCard
-						img={tacoblox}
-						title={"chalupa on sale"}
+						img={sonaria_title}
+						title={"creatures of sonaria"}
 						body={
-							"get a chalupa on sale now for half off with code edp445"
+							"a description"
 						}
 					/>
 					<ContentCard
-						img={tacoblox}
-						title={"chalupa on sale"}
+						img={captive_title}
+						title={"captive"}
 						body={
-							"get a chalupa on sale now for half off with code edp445"
+							"a description"
 						}
 					/>
 					<ContentCard
-						img={tacoblox}
-						title={"chalupa on sale"}
+						img={warships_title}
+						title={"warships"}
 						body={
-							"get a chalupa on sale now for half off with code edp445"
+							"a description"
 						}
 					/>
 					<ContentCard
-						img={tacoblox}
-						title={"chalupa on sale"}
+						img={sunnyshores_title}
+						title={"sunny shores"}
 						body={
-							"get a chalupa on sale now for half off with code edp445"
+							"a description"
 						}
 					/>
 					<ContentCard
-						img={tacoblox}
-						title={"chalupa on sale"}
+						img={felinesdestiny_title}
+						title={"feline's destiny"}
 						body={
-							"get a chalupa on sale now for half off with code edp445"
+							"a description"
 						}
 					/>
+				</div>
 				</div>
 			</div>
 
 			{/* page footer */}
-			<div></div>
+			<div className="footer"></div>
 		</div>
 	);
 };
