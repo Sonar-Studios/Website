@@ -54,7 +54,11 @@ export default () => {
 			{/* stats content */}
 			<div className="content">
 				<PageHeader text={"stats"} />
-				<StatCard stat="unique game sessions" value="420,000,000+" strong={true} />
+				<StatCard
+					stat="unique game sessions"
+					value="420,000,000+"
+					strong={true}
+				/>
 				<div className="grid">
 					<StatCard stat="collective favorites" value="1.8m+" />
 					<StatCard stat="community members" value="1.4m+" />
@@ -80,7 +84,7 @@ export default () => {
 							title={"creatures of sonaria"}
 							link={"https://www.roblox.com/games/5233782396"}
 							body={
-								"Grow, fight and survive with other players as a fictional creature in the world of Sonaria"
+								"Grow, fight and survive with other players as a fictional creature in the beautiful world of Sonaria"
 							}
 						/>
 						<ContentCard
