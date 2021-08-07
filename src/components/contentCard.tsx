@@ -9,6 +9,7 @@ interface ContentCardProps {
 	img?: string;
 	title: string;
 	body: string;
+	link: string;
 }
 
 export default class ContentCard extends Component<
@@ -24,9 +25,13 @@ export default class ContentCard extends Component<
 				<h2 className="card-title">{this.props.title}</h2>
 				<div className="card-body">{this.props.body}</div>
 				<div className="card-toggle">
-					<button className="card-button">
+					<a
+						className="card-button"
+						href={this.props.link}
+						target="_blank"
+					>
 						<img className="card-play" src={playbutton} />
-					</button>
+					</a>
 				</div>
 			</div>
 		);
