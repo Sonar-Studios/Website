@@ -40,58 +40,60 @@ export default () => {
 			{/* stats content */}
 			<div className="content">
 				<PageHeader text={"stats"} />
-				<div className="grid">
-					
-				</div>
+				<div className="grid"></div>
 			</div>
 
 			<div className="section">
 				<PageHeader text={"titles"} />
 				<div className="content">
-				<div className="grid">
-					<ContentCard
-						img={dragonadventures_title}
-						title={"dragon adventures"}
-						body={
-							"a description"
-						}
-					/>
-					<ContentCard
-						img={sonaria_title}
-						title={"creatures of sonaria"}
-						body={
-							"a description"
-						}
-					/>
-					<ContentCard
-						img={captive_title}
-						title={"captive"}
-						body={
-							"a description"
-						}
-					/>
-					<ContentCard
-						img={warships_title}
-						title={"warships"}
-						body={
-							"a description"
-						}
-					/>
-					<ContentCard
-						img={sunnyshores_title}
-						title={"sunny shores"}
-						body={
-							"a description"
-						}
-					/>
-					<ContentCard
-						img={felinesdestiny_title}
-						title={"feline's destiny"}
-						body={
-							"a description"
-						}
-					/>
-				</div>
+					<div className="grid">
+						<ContentCard
+							img={dragonadventures_title}
+							title={"dragon adventures"}
+							link={"https://www.roblox.com/games/3475397644"}
+							body={
+								"Hatch eggs and raise your dragons to become powerful beasts in a variety of immersive worlds"
+							}
+						/>
+						<ContentCard
+							img={sonaria_title}
+							title={"creatures of sonaria"}
+							link={"https://www.roblox.com/games/5233782396"}
+							body={
+								"Grow, fight and survive with other players as a fictional creature in the world of Sonaria"
+							}
+						/>
+						<ContentCard
+							img={captive_title}
+							title={"captive"}
+							link={"https://www.roblox.com/games/3388553819"}
+							body={
+								"Hack the computers, escape the beast, unlock the exits, and escape captivity"
+							}
+						/>
+						<ContentCard
+							img={warships_title}
+							title={"warships"}
+							link={"https://www.roblox.com/games/334218733"}
+							body={
+								"Set sail in massive battleships for control over the seas"
+							}
+						/>
+						<ContentCard
+							img={sunnyshores_title}
+							title={"sunny shores"}
+							link={"https://www.roblox.com/games/7071201807"}
+							body={"a description"}
+						/>
+						<ContentCard
+							img={felinesdestiny_title}
+							title={"feline's destiny"}
+							link={"https://www.roblox.com/games/2586423667"}
+							body={
+								"Explore a rainforest, survive disasters and roleplay with friends as a wild cat"
+							}
+						/>
+					</div>
 				</div>
 			</div>
 
