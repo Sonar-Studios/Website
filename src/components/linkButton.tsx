@@ -12,7 +12,7 @@ export default class LinkButton extends Component<LinkButtonProps, LinkButtonSta
 	render() {
 		return (
 			<button className="linkButton">
-				{this.props.text.toUpperCase()}
+				{this.props.text}
 			</button>
 		)
 	}
