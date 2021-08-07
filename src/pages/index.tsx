@@ -5,6 +5,7 @@ import LinkButton from "../components/linkButton";
 import SonarStudios from "../components/sonarStudios";
 import ContentCard from "../components/contentCard";
 import PageHeader from "../components/pageHeader";
+import ContentReel from "../components/contentReel";
 
 import logo from "../images/logo.png";
 import sonaria from "../images/sonaria.png";
@@ -35,7 +36,20 @@ export default () => {
 			</div>
 
 			{/* homepage banner */}
-			<img className="banner" src={sonaria} />
+			<div className="banner">
+				<img className="banner-image" src={sonaria} />
+				<div className="banner-reel">
+					<iframe
+						width="800"
+						height="450"
+						src="https://www.youtube.com/embed/fR9ClX0egTc"
+						title="YouTube video player"
+						frameBorder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreen={true}
+					/>
+				</div>
+			</div>
 
 			{/* stats content */}
 			<div className="content">
@@ -83,7 +97,9 @@ export default () => {
 							img={sunnyshores_title}
 							title={"sunny shores"}
 							link={"https://www.roblox.com/games/7071201807"}
-							body={"a description"}
+							body={
+								"Build your dream home, dress up, party with friends and more in our tropical island city"
+							}
 						/>
 						<ContentCard
 							img={felinesdestiny_title}

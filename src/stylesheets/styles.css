@@ -22,8 +22,11 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: fixed;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
 	background-color: white;
+	padding-bottom: auto;
 }
 
 .linkButton {
@@ -57,10 +60,32 @@ body {
 }
 
 .banner {
+	justify-content: center;
+	align-items: center;
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+.banner > * {
+	grid-column-start: 1;
+	grid-row-start: 1;
+}
+
+.banner-image {
 	width: 100%;
 	object-fit: cover;
 	height: 700px;
-	background: linear-gradient(to bottom right, var(--gradient1), var(--gradient2));
+	background: linear-gradient(
+		to bottom right,
+		var(--gradient1),
+		var(--gradient2)
+	);
+}
+
+.banner-reel {
+	justify-content: center;
+	align-items: center;
+	display: flex;
 }
 
 .badge-logo {
@@ -153,5 +178,10 @@ body {
 }
 
 .section {
-	background-color: #F0F0F0;
+	background-color: #f0f0f0;
+}
+
+.video {
+	max-width: "800";
+	height: "auto";
 }
