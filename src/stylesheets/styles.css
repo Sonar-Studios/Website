@@ -39,6 +39,7 @@ body {
 	background: white;
 	color: black;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 
 .linkButton:hover {
@@ -135,6 +136,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	display: flex;
+	cursor: pointer;
 }
 
 .card-play {
