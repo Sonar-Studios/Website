@@ -33,11 +33,12 @@ body {
 	padding: 10px 20px;
 	text-align: center;
 	transition: background 150ms, border-color 150ms, color 150ms;
-	margin-left: 20px;
+	margin-left: 10px;
 	font-size: 14px;
 	font-weight: 999;
 	background: white;
 	color: black;
+	text-transform: uppercase;
 }
 
 .linkButton:hover {
@@ -75,6 +76,7 @@ body {
 
 .badge-title {
 	font-weight: 900;
+	text-transform: uppercase;
 }
 
 .content {
@@ -85,33 +87,69 @@ body {
 .grid {
 	width: 100%;
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: calc(50% - 20px) calc(50% - 20px);
 	grid-column-gap: 40px;
 }
 
 .card {
 	width: 100%;
 	height: auto;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 }
 
 .card-image {
 	object-fit: cover;
 	width: 100%;
 	margin-bottom: 10px;
+	max-height: 200px;
 }
 
 .card-title {
 	text-align: center;
+	margin-bottom: 10px;
+	text-transform: uppercase;
 }
 
 .card-body {
 	text-align: center;
 	font-weight: 200;
+	text-transform: none;
+}
+
+.card-toggle {
+	padding-top: 14px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.card-button {
+	border: #00b06f;
+	padding: 10px 20%;
+	text-align: center;
+	transition: background 100ms;
+	font-weight: 600;
+	background: #00b06f;
+	color: white;
+	text-transform: uppercase;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.card-play {
+	width: 20px;
+	height: auto;
+	object-fit: cover;
 }
 
 .pageHeader {
 	text-align: center;
-	margin: 40px;
+	padding: 40px;
 	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.section {
+	background-color: #F0F0F0;
 }
