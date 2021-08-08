@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 
-interface PageHeaderState {
-
-}
-
+interface PageHeaderState {}
 interface PageHeaderProps {
 	text: string;
 }
@@ -11,7 +8,7 @@ interface PageHeaderProps {
 export default class PageHeader extends Component<PageHeaderProps, PageHeaderState> {
 	render() {
 		return (
-			<h1 className="pageHeader">
+			<h1 className="page-header">
 				{this.props.text}
 			</h1>
 		)
