@@ -18,6 +18,10 @@ import StatCard from "../components/statCard";
 import PageBody from "../components/pageBody";
 import PageImage from "../components/pageImage";
 
+import twitter from "../images/twitter.png";
+import roblox from "../images/roblox.png";
+import linkedin from "../images/linkedin.png";
+
 // we use a functional component for initial render because we can't use
 // hooks in class components, it sucks but that's what we gotta do
 export default () => {
@@ -76,19 +80,19 @@ export default () => {
 					<PageBody
 						title={"who are we?"}
 						text={
-							"RedManta is a fully distributed independent game company operating across the world. Since 2018, we have launched two major titles — Robloxian High School and World // Zero. We are in the constant pursuit of empowering fun, and enjoyment to millions of players."
+							"Sonar Studios LLC is an independent game studio that makes games on the Roblox platform. Founded officially in 2019, our flagship games Dragon Adventures and Creatures of Sonaria have attracted hundreds of millions of players. Sonar Studios continues to develop highly innovative games, pushing the boundaries of Roblox’s engine to provide a highly engaging experience for all demographics."
 						}
 					/>
 					<PageBody
-						title={"why roblox?"}
+						title={"our expertise"}
 						text={
-							"The platform provides us a unique opportunity to focus on game design and user experience while they handle the complexity of scale and security. Serving millions of users per day, Roblox adaptively scales from iPhone 4S to the latest PC hardware enabling us to reach the largest possible audience."
+							"Our experience is not just limited to games and community management — our developers have generated over 20 million virtual fashion & apparel sales on Roblox, as well as thousands of real world merchandise sales through Amazon's partnership programs."
 						}
 					/>
 					<PageBody
-						title={"join us"}
+						title={"squad up"}
 						text={
-							"We are not hiring at this time, but our applications are always open! Apply under our “Dream Job” category and we’ll reach out when we have something that fits."
+							"We are an innovative studio that is striving to provide the best experience to both our players and partners. Our team is dedicated to making high-quality games that test the boundaries of what Roblox is capable of. If you choose to partner with us for a branded event or full Roblox experience, we go above and beyond to deliver you a quality product in a timely manner."
 						}
 					/>
 				</div>
@@ -99,7 +103,7 @@ export default () => {
 				<div className="grid">
 					<ContentCard
 						img={dragonadventures_title}
-						title={"dragon adventures"}
+						title={"Dragon Adventures"}
 						link={"https://www.roblox.com/games/3475397644"}
 						body={
 							"Hatch eggs and raise your dragons to become powerful beasts in a variety of immersive worlds"
@@ -107,7 +111,7 @@ export default () => {
 					/>
 					<ContentCard
 						img={sonaria_title}
-						title={"creatures of sonaria"}
+						title={"Creatures of Sonaria"}
 						link={"https://www.roblox.com/games/5233782396"}
 						body={
 							"Grow, fight and survive with other players as a fictional creature in the beautiful world of Sonaria"
@@ -115,7 +119,7 @@ export default () => {
 					/>
 					<ContentCard
 						img={captive_title}
-						title={"captive"}
+						title={"Captive"}
 						link={"https://www.roblox.com/games/3388553819"}
 						body={
 							"Hack the computers, escape the beast, unlock the exits, and escape captivity"
@@ -123,7 +127,7 @@ export default () => {
 					/>
 					<ContentCard
 						img={warships_title}
-						title={"warships"}
+						title={"Warships"}
 						link={"https://www.roblox.com/games/334218733"}
 						body={
 							"Set sail in massive battleships for control over the seas"
@@ -131,7 +135,7 @@ export default () => {
 					/>
 					<ContentCard
 						img={sunnyshores_title}
-						title={"sunny shores"}
+						title={"Sunny Shores"}
 						link={"https://www.roblox.com/games/7071201807"}
 						body={
 							"Build your dream home, dress up, party with friends and more in our tropical island city"
@@ -139,7 +143,7 @@ export default () => {
 					/>
 					<ContentCard
 						img={felinesdestiny_title}
-						title={"feline's destiny"}
+						title={"Feline's Destiny"}
 						link={"https://www.roblox.com/games/2586423667"}
 						body={
 							"Explore a rainforest, survive disasters and roleplay with friends as a wild cat"
@@ -149,9 +153,32 @@ export default () => {
 			</div>
 
 			{/* page footer */}
-			<div className="section">
-				<div className="footer">
-					
+			<div className="footer">
+				<div className="footer-content">
+					<div className="footer-links">
+						<a
+							className="footer-button"
+							href="https://www.roblox.com/groups/2919215/Sonar-Studios"
+							target="_blank"
+						>
+							<img src={roblox} className="footer-button" />
+						</a>
+						<a
+							className="footer-button"
+							href="https://twitter.com/Sonar_Games"
+							target="_blank"
+						>
+							<img src={twitter} className="footer-button" />
+						</a>
+						<a
+							className="footer-button"
+							href="https://www.linkedin.com/company/sonar-games/"
+							target="_blank"
+						>
+							<img src={linkedin} className="footer-button" />
+						</a>
+					</div>
+					<div className="footer-legal">© 2021 Sonar Studios LLC</div>
 				</div>
 			</div>
 		</div>
