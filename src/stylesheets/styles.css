@@ -31,10 +31,11 @@ body {
 .linkButton {
 	border-style: solid;
 	border-image: linear-gradient(
-		to bottom right,
-		var(--gradient1),
-		var(--gradient2)
-	) 1;
+			to bottom right,
+			var(--gradient1),
+			var(--gradient2)
+		)
+		1;
 	border-width: 2px;
 	padding: 10px 20px;
 	text-align: center;
@@ -302,4 +303,15 @@ body {
 
 .footer-legal {
 	text-align: center;
+}
+
+@media only screen and (max-width: 840px) {
+	.grid {
+		display: inline;
+	}
+
+	.card {
+		width: calc(100% - 40px);
+		margin: auto;
+	}
 }
