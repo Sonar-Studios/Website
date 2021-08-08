@@ -156,12 +156,10 @@ body {
 }
 
 .card-button {
-	border: #00b06f;
 	padding: 10px 20%;
 	text-align: center;
 	transition: background 100ms;
 	font-weight: 600;
-	background: #00b06f;
 	color: white;
 	text-transform: uppercase;
 	align-items: center;
@@ -169,11 +167,7 @@ body {
 	display: flex;
 	cursor: pointer;
 
-	border: linear-gradient(
-		to bottom right,
-		var(--gradient1),
-		var(--gradient2)
-	);
+	border: none;
 	background: linear-gradient(
 		to bottom right,
 		var(--gradient1),
@@ -187,11 +181,40 @@ body {
 	object-fit: cover;
 }
 
-.pageHeader {
+.page-header {
 	text-align: center;
 	padding: 40px;
 	font-size: 50px;
 	text-transform: uppercase;
+}
+
+.page-section {
+	padding-bottom: 40px;
+}
+
+.page-center {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
+.page-title {
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.page-body {
+	text-align: center;
+	font-size: 20px;
+}
+
+.page-image {
+	height: 15%;
+	width: 15%;
+	object-fit: contain;
 }
 
 .section {
@@ -244,4 +267,14 @@ body {
 	padding: 0;
 	font-size: 20px;
 	text-transform: capitalize;
+}
+
+.footer {
+	margin: auto;
+	max-width: 800px;
+}
+
+.footer-content {
+	margin: auto;
+	max-width: 800px;
 }
