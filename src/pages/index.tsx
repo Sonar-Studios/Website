@@ -76,19 +76,19 @@ export default () => {
 					<PageBody
 						title={"who are we?"}
 						text={
-							"Sonar Studios, commonly known as Sonar, is an American diversified multinational mass media and entertainment conglomerate headquartered at Las Vegas in Nevada, USA."
+							"RedManta is a fully distributed independent game company operating across the world. Since 2018, we have launched two major titles — Robloxian High School and World // Zero. We are in the constant pursuit of empowering fun, and enjoyment to millions of players."
 						}
 					/>
 					<PageBody
 						title={"why roblox?"}
 						text={
-							"got rlly lucky tbh lol."
+							"The platform provides us a unique opportunity to focus on game design and user experience while they handle the complexity of scale and security. Serving millions of users per day, Roblox adaptively scales from iPhone 4S to the latest PC hardware enabling us to reach the largest possible audience."
 						}
 					/>
 					<PageBody
-						title={"how many toes have we sucked?"}
+						title={"join us"}
 						text={
-							"join us and you can find out and add 10 😏"
+							"We are not hiring at this time, but our applications are always open! Apply under our “Dream Job” category and we’ll reach out when we have something that fits."
 						}
 					/>
 				</div>
