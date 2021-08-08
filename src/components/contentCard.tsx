@@ -29,6 +29,7 @@ export default class ContentCard extends Component<
 						className="card-button"
 						href={this.props.link}
 						target="_blank"
+						title={"View " + this.props.title}
 					>
 						<img className="card-play" src={playbutton} />
 					</a>
