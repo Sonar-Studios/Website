@@ -311,7 +311,6 @@ body {
 	}
 
 	.card {
-		/* width: calc(100% - 40px); */
 		margin: auto;
 	}
 
@@ -326,5 +325,13 @@ body {
 
 	.banner-image {
 		height: 450px;
+	}
+
+	.header {
+		flex-direction: column;
+	}
+
+	.badge {
+		padding-bottom: 10px;
 	}
 }
