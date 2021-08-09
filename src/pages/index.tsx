@@ -80,7 +80,7 @@ export default () => {
 					<PageBody
 						title={"who are we?"}
 						text={
-							"Sonar Studios LLC is an independent game studio that makes games on the Roblox platform. Founded officially in 2019, our flagship games Dragon Adventures and Creatures of Sonaria have attracted hundreds of millions of players. Sonar Studios continues to develop highly innovative games, pushing the boundaries of Roblox’s engine to provide a highly engaging experience for all demographics."
+							"Sonar Studios LLC is an independent game studio that makes games on the Roblox platform. Founded officially in 2019, our flagship games Dragon Adventures and Creatures of Sonaria have attracted tens of millions of players. Sonar Studios continues to develop innovative games that push the boundaries of Roblox’s engine to provide an engaging experience for all demographics."
 						}
 					/>
 					<PageBody
@@ -122,7 +122,7 @@ export default () => {
 						title={"Captive"}
 						link={"https://www.roblox.com/games/3388553819"}
 						body={
-							"Hack the computers, escape the beast, unlock the exits, and escape captivity"
+							"Hack the computers, outrun the beast, unlock the exits, and escape captivity"
 						}
 					/>
 					<ContentCard
