@@ -63,6 +63,7 @@ export default () => {
 				<StatCard
 					stat="unique game sessions"
 					value="420,000,000+"
+					fallback="420m+"
 					strong={true}
 				/>
 				<div className="grid">

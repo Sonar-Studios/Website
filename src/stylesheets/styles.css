@@ -246,7 +246,7 @@ body {
 	-webkit-text-fill-color: transparent;
 }
 
-.stat-stronger {
+.stat-stronger-1 {
 	text-align: center;
 	padding: 0;
 	font-size: 100px;
@@ -259,6 +259,22 @@ body {
 	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.stat-stronger-2 {
+	text-align: center;
+	padding: 0;
+	font-size: 100px;
+	font-weight: 900;
+	text-transform: uppercase;
+	background: linear-gradient(
+		to bottom right,
+		var(--gradient1),
+		var(--gradient2)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: none;
 }
 
 .stat-body {
@@ -333,5 +349,13 @@ body {
 
 	.badge {
 		padding-bottom: 10px;
+	}
+
+	.stat-stronger-1 {
+		display: none;
+	}
+
+	.stat-stronger-2 {
+		display: inherit;
 	}
 }
