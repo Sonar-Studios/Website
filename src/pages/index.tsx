@@ -90,7 +90,7 @@ export default () => {
 						}
 					/>
 					<PageBody
-						title={"squad up"}
+						title={"partner with us"}
 						text={
 							"We are an innovative studio that is striving to provide the best experience to both our players and partners. Our team is dedicated to making high-quality games that test the boundaries of what Roblox is capable of. If you choose to partner with us for a branded event or full Roblox experience, we go above and beyond to deliver you a quality product in a timely manner."
 						}
