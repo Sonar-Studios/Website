@@ -28,7 +28,7 @@ body {
 	background-color: white;
 }
 
-.linkButton {
+.link {
 	border-style: solid;
 	border-image: linear-gradient(
 			to bottom right,
@@ -49,7 +49,7 @@ body {
 	cursor: pointer;
 }
 
-.linkButton:hover {
+.link:hover {
 	background: linear-gradient(
 		to bottom right,
 		var(--gradient1),
@@ -58,11 +58,11 @@ body {
 	color: white;
 }
 
-.linkButton:first-of-type {
+.link:first-of-type {
 	margin-left: 0;
 }
 
-.linkButton:last-of-type {
+.link:last-of-type {
 	margin-right: 0;
 }
 
@@ -357,5 +357,15 @@ body {
 
 	.stat-stronger-2 {
 		display: inherit;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.badge {
+		display: none;
+	}
+
+	.link {
+		padding: 10px;
 	}
 }
