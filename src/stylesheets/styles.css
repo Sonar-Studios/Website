@@ -311,11 +311,20 @@ body {
 	}
 
 	.card {
-		width: calc(100% - 40px);
+		/* width: calc(100% - 40px); */
 		margin: auto;
 	}
 
 	.stat-stronger {
 		overflow-wrap: break-word;
+	}
+
+	.content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.banner-image {
+		height: 450px;
 	}
 }
