@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 
-interface LinkButtonState {
-
-}
-
+interface LinkButtonState {}
 interface LinkButtonProps {
 	text: string;
 }
@@ -11,7 +8,7 @@ interface LinkButtonProps {
 export default class LinkButton extends Component<LinkButtonProps, LinkButtonState> {
 	render() {
 		return (
-			<button className="linkButton">
+			<button className="link">
 				{this.props.text}
 			</button>
 		)
