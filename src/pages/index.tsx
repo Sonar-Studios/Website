@@ -36,7 +36,7 @@ export default () => {
 				<SonarStudios />
 				<div className="buttons">
 					<LinkButton text={"home"} />
-					<LinkButton text={"careers"} />
+					<LinkButton text={"jobs"} />
 					<LinkButton text={"contact"} />
 				</div>
 			</div>
