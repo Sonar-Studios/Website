@@ -57,6 +57,7 @@ body {
 	color: black;
 	text-transform: uppercase;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .link:hover {
