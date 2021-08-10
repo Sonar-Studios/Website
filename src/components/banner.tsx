@@ -2,12 +2,7 @@ import React, { Component } from "react";
 import sitebanner from "../images/sitebanner.png";
 
 interface BannerState {}
-interface BannerProps {
-	img?: string;
-	title: string;
-	body: string;
-	link: string;
-}
+interface BannerProps {}
 
 export default class Banner extends Component<BannerProps, BannerState> {
 	render() {
