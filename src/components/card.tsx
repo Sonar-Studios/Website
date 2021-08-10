@@ -1,21 +1,15 @@
 import React, { Component } from "react";
-
-import LinkButton from "./linkButton";
-import logo from "../images/logo.png";
 import playbutton from "../images/playbutton.png";
 
-interface ContentCardState {}
-interface ContentCardProps {
+interface CardState {}
+interface CardProps {
 	img?: string;
 	title: string;
 	body: string;
 	link: string;
 }
 
-export default class ContentCard extends Component<
-	ContentCardProps,
-	ContentCardState
-> {
+export default class Card extends Component<CardProps, CardState> {
 	render() {
 		return (
 			<div className="card">
