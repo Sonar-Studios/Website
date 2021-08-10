@@ -16,10 +16,7 @@ export default () => {
 			<Header />
 
 			<div className="content">
-				<PageHeader text={"404"} />
-				<div>
-					This page doesn't seem to exist
-				</div>
+				<PageHeader text={"go home"} />
 			</div>
 
 			<Footer />
