@@ -14,6 +14,7 @@ import captive_title from "../images/captive_title.png";
 import warships_title from "../images/warships_title.png";
 import sunnyshores_title from "../images/sunnyshores_title.png";
 import felinesdestiny_title from "../images/felinesdestiny_title.png";
+
 import StatCard from "../components/statCard";
 import PageBody from "../components/pageBody";
 import PageImage from "../components/pageImage";
@@ -31,23 +32,24 @@ export default () => {
 			<div className="page-wrap">
 				<Header />
 
-				{/* homepage banner */}
 				<div className="banner">
 					<img className="banner-image" src={sitebanner} />
 					<div className="banner-reel">
 						<iframe
+						className="banner-iframe"
 							width="800"
 							height="450"
-							src="https://www.youtube.com/embed/a8NFAfcND-s?autoplay=1"
+							src="https://www.youtube.com/embed/Q0e98UjZ5J0?autoplay=1"
 							title="YouTube video player"
 							frameBorder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen={true}
 						/>
 					</div>
+					<div className="banner-gradient" />
+					<div className="banner-darken" />
 				</div>
 
-				{/* stats content */}
 				<div className="content">
 					<PageHeader text={"stats"} />
 					<StatCard
@@ -143,6 +145,7 @@ export default () => {
 					</div>
 				</div>
 			</div>
+
 			<Footer />
 		</div>
 	);
