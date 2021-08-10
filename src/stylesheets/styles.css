@@ -15,6 +15,15 @@ body {
 	font-family: var(--font), var(--fallback-font);
 }
 
+.page {
+	position: relative;
+	min-height: 100vh;
+}
+
+.page-wrap {
+	padding-bottom: 140px;
+}
+
 .header {
 	height: auto;
 	width: calc(100% - 20px);
@@ -264,7 +273,7 @@ body {
 .stat-stronger-2 {
 	text-align: center;
 	padding: 0;
-	font-size: 100px;
+	font-size: 60px;
 	font-weight: 900;
 	text-transform: uppercase;
 	background: linear-gradient(
@@ -286,6 +295,9 @@ body {
 
 .footer {
 	background-color: #f0f0f0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 .footer-content {
@@ -357,6 +369,10 @@ body {
 
 	.stat-stronger-2 {
 		display: inherit;
+	}
+
+	.stat-header {
+		font-size: 50px;
 	}
 }
 
