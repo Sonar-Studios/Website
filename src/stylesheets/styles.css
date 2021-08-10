@@ -38,6 +38,11 @@ body {
 	z-index: 100;
 }
 
+.header-buttons {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .link {
 	border-style: solid;
 	border-image: linear-gradient(
@@ -196,7 +201,6 @@ body {
 .card-button {
 	padding: 10px 25%;
 	text-align: center;
-	transition: background 100ms;
 	font-weight: 600;
 	color: white;
 	text-transform: capitalize;
@@ -362,10 +366,6 @@ body {
 }
 
 @media only screen and (max-width: 820px) {
-	.banner-gradient {
-		display: none;
-	}
-
 	.grid {
 		display: inline;
 	}
@@ -385,6 +385,14 @@ body {
 
 	.banner-image {
 		height: 450px;
+	}
+
+	.banner-darken {
+		height: 450px;
+	}
+
+	.banner-gradient {
+		display: none;
 	}
 
 	.header {

@@ -10,7 +10,7 @@ export default class Header extends Component<HeaderProps, HeaderState> {
 		return (
 			<div className="header">
 				<SonarStudios />
-				<div>
+				<div className="header-buttons">
 					<Link className="link" to="/">
 						home
 					</Link>
