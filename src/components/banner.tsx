@@ -1,0 +1,34 @@
+import React, { Component } from "react";
+import sitebanner from "../images/sitebanner.png";
+
+interface BannerState {}
+interface BannerProps {
+	img?: string;
+	title: string;
+	body: string;
+	link: string;
+}
+
+export default class Banner extends Component<BannerProps, BannerState> {
+	render() {
+		return (
+			<div className="banner">
+				<img className="banner-image" src={sitebanner} />
+				<div className="banner-reel">
+					<iframe
+						className="banner-iframe"
+						width="800"
+						height="450"
+						src="https://www.youtube.com/embed/Q0e98UjZ5J0?autoplay=1"
+						title="YouTube video player"
+						frameBorder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreen={true}
+					/>
+				</div>
+				<div className="banner-gradient" />
+				<div className="banner-darken" />
+			</div>
+		);
+	}
+}

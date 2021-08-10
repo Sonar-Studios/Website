@@ -7,7 +7,6 @@ import PageHeader from "../components/pageHeader";
 import Header from "../components/header";
 
 import logo from "../images/logo.png";
-import sitebanner from "../images/sitebanner.png";
 import dragonadventures_title from "../images/dragonadventures_title.png";
 import sonaria_title from "../images/sonaria_title.png";
 import captive_title from "../images/captive_title.png";
@@ -19,6 +18,7 @@ import StatCard from "../components/statCard";
 import PageBody from "../components/pageBody";
 import PageImage from "../components/pageImage";
 import Footer from "../components/footer";
+import Banner from "../components/banner";
 
 // we use a functional component for initial render because we can't use
 // hooks in class components, it sucks but that's what we gotta do
@@ -32,23 +32,7 @@ export default () => {
 			<div className="page-wrap">
 				<Header />
 
-				<div className="banner">
-					<img className="banner-image" src={sitebanner} />
-					<div className="banner-reel">
-						<iframe
-						className="banner-iframe"
-							width="800"
-							height="450"
-							src="https://www.youtube.com/embed/Q0e98UjZ5J0?autoplay=1"
-							title="YouTube video player"
-							frameBorder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowFullScreen={true}
-						/>
-					</div>
-					<div className="banner-gradient" />
-					<div className="banner-darken" />
-				</div>
+				<Banner />
 
 				<div className="content">
 					<PageHeader text={"stats"} />
