@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "../stylesheets/styles.css";
 
-import ContentCard from "../components/contentCard";
+import Card from "../components/card";
 import PageHeader from "../components/pageHeader";
 
 import Header from "../components/header";
@@ -94,7 +94,7 @@ export default () => {
 				<div className="content">
 					<PageHeader text={"titles"} />
 					<div className="grid">
-						<ContentCard
+						<Card
 							img={dragonadventures_title}
 							title={"Dragon Adventures"}
 							link={"https://www.roblox.com/games/3475397644"}
@@ -102,7 +102,7 @@ export default () => {
 								"Hatch eggs and raise your dragons to become powerful beasts in a variety of immersive worlds"
 							}
 						/>
-						<ContentCard
+						<Card
 							img={sonaria_title}
 							title={"Creatures of Sonaria"}
 							link={"https://www.roblox.com/games/5233782396"}
@@ -110,7 +110,7 @@ export default () => {
 								"Grow, fight and survive with other players as a fictional creature in the beautiful world of Sonaria"
 							}
 						/>
-						<ContentCard
+						<Card
 							img={captive_title}
 							title={"Captive"}
 							link={"https://www.roblox.com/games/3388553819"}
@@ -118,7 +118,7 @@ export default () => {
 								"Hack the computers, outrun the beast, unlock the exits, and escape captivity"
 							}
 						/>
-						<ContentCard
+						<Card
 							img={warships_title}
 							title={"Warships"}
 							link={"https://www.roblox.com/games/334218733"}
@@ -126,7 +126,7 @@ export default () => {
 								"Set sail in massive battleships for control over the seas"
 							}
 						/>
-						<ContentCard
+						<Card
 							img={sunnyshores_title}
 							title={"Sunny Shores"}
 							link={"https://www.roblox.com/games/7071201807"}
@@ -134,7 +134,7 @@ export default () => {
 								"Build your dream home, dress up, party with friends and more in our tropical island city"
 							}
 						/>
-						<ContentCard
+						<Card
 							img={felinesdestiny_title}
 							title={"Feline's Destiny"}
 							link={"https://www.roblox.com/games/2586423667"}

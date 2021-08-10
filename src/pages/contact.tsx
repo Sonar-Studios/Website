@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Footer from "../components/footer";
 import Header from "../components/header";
 import "../stylesheets/styles.css";
 
@@ -11,7 +12,11 @@ export default () => {
 
 	return (
 		<div>
-			<Header />
+			<div className="page-wrap">
+				<Header />
+			</div>
+
+			<Footer />
 		</div>
 	)
 }
