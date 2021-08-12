@@ -46,7 +46,7 @@ body {
 .link {
 	border-style: solid;
 	border-image: linear-gradient(
-			to bottom right,
+			217.25deg,
 			var(--gradient1),
 			var(--gradient2)
 		)
@@ -67,7 +67,7 @@ body {
 
 .link:hover {
 	background: linear-gradient(
-		to bottom right,
+		217.25deg,
 		var(--gradient1),
 		var(--gradient2)
 	);
@@ -100,7 +100,7 @@ body {
 	height: 700px;
 	z-index: 0;
 	background: linear-gradient(
-		to bottom right,
+		217.25deg,
 		var(--gradient1),
 		var(--gradient2)
 	);
@@ -122,7 +122,7 @@ body {
 	height: 460px;
 	width: 810px;
 	background: linear-gradient(
-		to bottom right,
+		217.25deg,
 		var(--gradient1),
 		var(--gradient2)
 	);
@@ -211,7 +211,7 @@ body {
 
 	border: none;
 	background: linear-gradient(
-		to bottom right,
+		217.25deg,
 		var(--gradient1),
 		var(--gradient2)
 	);
@@ -279,7 +279,7 @@ body {
 	font-weight: 900;
 	text-transform: uppercase;
 	background: linear-gradient(
-		to bottom right,
+		217.25deg,
 		var(--gradient1),
 		var(--gradient2)
 	);
@@ -294,7 +294,7 @@ body {
 	font-weight: 900;
 	text-transform: uppercase;
 	background: linear-gradient(
-		to bottom right,
+		217.25deg,
 		var(--gradient1),
 		var(--gradient2)
 	);
@@ -309,7 +309,7 @@ body {
 	font-weight: 900;
 	text-transform: uppercase;
 	background: linear-gradient(
-		to bottom right,
+		217.25deg,
 		var(--gradient1),
 		var(--gradient2)
 	);
@@ -419,9 +419,5 @@ body {
 @media only screen and (max-width: 360px) {
 	.badge {
 		display: none;
-	}
-
-	.link {
-		padding: 10px;
 	}
 }
