@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
+import PageHeader from "../components/pageHeader";
 import "../stylesheets/styles.css";
 
 // we use a functional component for initial render because we can't use
@@ -14,6 +15,11 @@ export default () => {
 		<div className="page">
 			<div className="page-wrap">
 				<Header />
+
+				<div className="content">
+					<PageHeader text={"jobs"} />
+					
+				</div>
 			</div>
 
 			<Footer />
