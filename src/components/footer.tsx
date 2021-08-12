@@ -17,6 +17,7 @@ export default class Footer extends Component<FooterProps, FooterState> {
 							className="footer-button"
 							href="https://www.roblox.com/groups/2919215/Sonar-Studios"
 							target="_blank"
+							title="Connect with Sonar"
 						>
 							<img src={roblox} className="footer-button" />
 						</a>
@@ -24,6 +25,7 @@ export default class Footer extends Component<FooterProps, FooterState> {
 							className="footer-button"
 							href="https://twitter.com/Sonar_Games"
 							target="_blank"
+							title="Connect with Sonar"
 						>
 							<img src={twitter} className="footer-button" />
 						</a>
@@ -31,6 +33,7 @@ export default class Footer extends Component<FooterProps, FooterState> {
 							className="footer-button"
 							href="https://www.linkedin.com/company/sonar-games/"
 							target="_blank"
+							title="Connect with Sonar"
 						>
 							<img src={linkedin} className="footer-button" />
 						</a>
