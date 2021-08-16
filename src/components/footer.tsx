@@ -23,7 +23,7 @@ export default class Footer extends Component<FooterProps, FooterState> {
 						</a>
 						<a
 							className="footer-button"
-							href="https://twitter.com/Sonar_Games"
+							href="https://twitter.com/intent/follow?screen_name=Sonar_Games"
 							target="_blank"
 							title="Connect with Sonar"
 						>
