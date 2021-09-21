@@ -17,9 +17,9 @@ export default class Header extends Component<HeaderProps, HeaderState> {
 					<Link className="link" to="/jobs">
 						jobs
 					</Link>
-					<Link className="link" to="/contact">
+					{/* <Link className="link" to="/contact">
 						contact
-					</Link>
+					</Link> */}
 				</div>
 			</div>
 		);

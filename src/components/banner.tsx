@@ -14,7 +14,7 @@ export default class Banner extends Component<BannerProps, BannerState> {
 						className="banner-iframe"
 						width="800"
 						height="450"
-						src="https://www.youtube.com/embed/Q0e98UjZ5J0?autoplay=1"
+						src="https://www.youtube.com/embed/nRcc4F1Gem4?autoplay=1"
 						title="YouTube video player"
 						frameBorder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

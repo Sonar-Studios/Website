@@ -38,8 +38,8 @@ export default () => {
 					<PageHeader text={"stats"} />
 					<StatCard
 						stat="unique game sessions"
-						value="420,000,000+"
-						fallback="420m+"
+						value="450,000,000+"
+						fallback="450m+"
 						strong={true}
 					/>
 					<div className="grid">
