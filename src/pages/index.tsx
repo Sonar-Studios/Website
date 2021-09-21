@@ -32,7 +32,7 @@ export default () => {
 			<div className="page-wrap">
 				<Header />
 
-				<Banner />
+				<Banner video={true} />
 
 				<div className="content">
 					<PageHeader text={"stats"} />
