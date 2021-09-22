@@ -6,7 +6,7 @@ import Header from "../components/header";
 import PageHeader from "../components/pageHeader";
 import "../stylesheets/styles.css";
 
-import chalupa from "../images/chalupa.png";
+import jobsbanner from "../images/jobsbanner.png";
 import systemsengineer from "../images/systemsengineer.png";
 import gameplayengineer from "../images/gameplayengineer.png";
 import generalartist from "../images/generalartist.png";
@@ -24,7 +24,7 @@ export default () => {
 			<div className="page-wrap">
 				<Header />
 
-				<Banner video={false} />
+				<Banner img={jobsbanner} video={false} />
 
 				<div className="content">
 					<PageHeader text={"jobs"} />

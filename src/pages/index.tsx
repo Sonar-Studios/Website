@@ -13,6 +13,7 @@ import captive_title from "../images/captive_title.png";
 import warships_title from "../images/warships_title.png";
 import sunnyshores_title from "../images/sunnyshores_title.png";
 import felinesdestiny_title from "../images/felinesdestiny_title.png";
+import sonarbanner from "../images/sonarbanner.png";
 
 import StatCard from "../components/statCard";
 import PageBody from "../components/pageBody";
@@ -32,7 +33,7 @@ export default () => {
 			<div className="page-wrap">
 				<Header />
 
-				<Banner video={true} />
+				<Banner img={sonarbanner} video={true} />
 
 				<div className="content">
 					<PageHeader text={"stats"} />

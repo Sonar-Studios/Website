@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import sitebanner from "../images/sitebanner.png";
 
 interface BannerState {}
 interface BannerProps {
+	img: string;
 	video: boolean;
 }
 
@@ -12,7 +12,7 @@ export default class Banner extends Component<BannerProps, BannerState> {
 			<div>
 				{this.props.video ? (
 					<div className="banner">
-						<img className="banner-image" src={sitebanner} />
+						<img className="banner-image" src={this.props.img} />
 						<div className="banner-reel">
 							<iframe
 								className="banner-iframe"
@@ -30,7 +30,7 @@ export default class Banner extends Component<BannerProps, BannerState> {
 					</div>
 				) : (
 					<div className="banner">
-						<img className="banner-image-small" src={sitebanner} />
+						<img className="banner-image-small" src={this.props.img} />
 						<div className="banner-darken-small" />
 					</div>
 				)}
