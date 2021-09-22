@@ -7,6 +7,10 @@ import PageHeader from "../components/pageHeader";
 import "../stylesheets/styles.css";
 
 import chalupa from "../images/chalupa.png";
+import systemsengineer from "../images/systemsengineer.png";
+import gameplayengineer from "../images/gameplayengineer.png";
+import generalartist from "../images/generalartist.png";
+import animator from "../images/animator.png";
 
 // we use a functional component for initial render because we can't use
 // hooks in class components, it sucks but that's what we gotta do
@@ -72,43 +76,43 @@ export default () => {
 
 					<div className="grid">
 						<Card
-							img={chalupa}
+							img={gameplayengineer}
 							title={"Gameplay Engineer"}
 							link={
 								"https://sonar-studios.homerun.co/gameplay-engineer-sr-jr"
 							}
 							body={
-								"Work on amazing things with Sonar Studios. Filler text that must be updated."
+								"Design the next big game feature for millions to experience and enjoy."
 							}
 						/>
 						<Card
-							img={chalupa}
+							img={systemsengineer}
 							title={"Systems Engineer"}
 							link={
 								"https://sonar-studios.homerun.co/systems-engineer-sr-jr"
 							}
 							body={
-								"Work on amazing things with Sonar Studios. Filler text that must be updated."
+								"Build and scale backend systems to serve our millions of players every month."
 							}
 						/>
 						<Card
-							img={chalupa}
+							img={generalartist}
 							title={"3D General Artist"}
 							link={
 								"https://sonar-studios.homerun.co/3d-general-artist"
 							}
 							body={
-								"Work on amazing things with Sonar Studios. Filler text that must be updated."
+								"Develop and grow our art assets and integrate them into our projects."
 							}
 						/>
 						<Card
-							img={chalupa}
+							img={animator}
 							title={"3D Animator"}
 							link={
 								"https://sonar-studios.homerun.co/3d-animator"
 							}
 							body={
-								"Work on amazing things with Sonar Studios. Filler text that must be updated."
+								"Characters, creatures, and monsters, help us make them move."
 							}
 						/>
 					</div>
