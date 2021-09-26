@@ -95,7 +95,7 @@ export default () => {
 								"Build and scale backend systems to serve our millions of players every month."
 							}
 						/>
-						<Card
+						{/* <Card
 							img={generalartist}
 							title={"3D General Artist"}
 							link={
@@ -104,7 +104,7 @@ export default () => {
 							body={
 								"Develop and grow our art assets and integrate them into our projects."
 							}
-						/>
+						/> */}
 						<Card
 							img={animator}
 							title={"3D Animator"}
