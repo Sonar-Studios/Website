@@ -85,20 +85,6 @@ body {
 	text-decoration: none;
 }
 
-.badge-link {
-	color: black;
-}
-
-.badge-link:hover {
-	background: linear-gradient(
-		to bottom left,
-		var(--gradient1),
-		var(--gradient2)
-	);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
 .banner {
 	justify-content: center;
 	align-items: center;
@@ -190,6 +176,20 @@ body {
 .badge-title {
 	font-weight: 900;
 	text-transform: uppercase;
+}
+
+.badge-link {
+	color: black;
+}
+
+.badge-link:hover {
+	background: linear-gradient(
+		to bottom left,
+		var(--gradient1),
+		var(--gradient2)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .content {
