@@ -43,7 +43,7 @@ body {
 	padding-bottom: 10px;
 }
 
-.link {
+.header-link {
 	border-style: solid;
 	border-image: linear-gradient(
 			to bottom left,
@@ -61,11 +61,9 @@ body {
 	background: white;
 	color: black;
 	text-transform: uppercase;
-	cursor: pointer;
-	text-decoration: none;
 }
 
-.link:hover {
+.header-link:hover {
 	background: linear-gradient(
 		to bottom left,
 		var(--gradient1),
@@ -74,12 +72,31 @@ body {
 	color: white;
 }
 
-.link:first-of-type {
+.header-link:first-of-type {
 	margin-left: 0;
 }
 
-.link:last-of-type {
+.header-link:last-of-type {
 	margin-right: 0;
+}
+
+.link {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.badge-link {
+	color: black;
+}
+
+.badge-link:hover {
+	background: linear-gradient(
+		to bottom left,
+		var(--gradient1),
+		var(--gradient2)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .banner {

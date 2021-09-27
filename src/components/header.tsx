@@ -11,10 +11,10 @@ export default class Header extends Component<HeaderProps, HeaderState> {
 			<div className="header">
 				<SonarStudios />
 				<div className="header-buttons">
-					<Link className="link" to="/">
+					<Link className="header-link link" to="/">
 						home
 					</Link>
-					<Link className="link" to="/jobs">
+					<Link className="header-link link" to="/jobs">
 						jobs
 					</Link>
 					{/* <Link className="link" to="/contact">
