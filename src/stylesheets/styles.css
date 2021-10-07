@@ -204,6 +204,19 @@ body {
 	grid-column-gap: 40px;
 }
 
+.container {
+	height: auto;
+	width: auto;
+	justify-content:center;
+	align-items:center;
+	display: flex;
+}
+
+.container-item {
+	width: calc(50% - 20px);
+	height: calc(50% - 20px);
+}
+
 .card {
 	width: 100%;
 	height: auto;

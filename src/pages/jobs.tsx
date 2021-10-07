@@ -7,6 +7,7 @@ import PageHeader from "../components/pageHeader";
 import "../stylesheets/styles.css";
 
 import jobsbanner from "../images/jobsbanner.png";
+import dreamjob from "../images/dreamjob.png";
 import systemsengineer from "../images/systemsengineer.png";
 import gameplayengineer from "../images/gameplayengineer.png";
 import generalartist from "../images/generalartist.png";
@@ -74,7 +75,24 @@ export default () => {
 						</div>
 					</div>
 
-					<div className="grid">
+					{/* for 1 job */}
+					<div className="container">
+						<div className="container-item">
+							<Card
+								img={dreamjob}
+								title={"Dream Job"}
+								link={
+									"https://sonar-studios.homerun.co/dream-job/en"
+								}
+								body={
+									"We are currently not hiring, but we accept applications anytime! Apply for your dream job today."
+								}
+							/>
+						</div>
+					</div>
+
+					{/* for multiple jobs */}
+					{/* <div className="grid">
 						<Card
 							img={gameplayengineer}
 							title={"Gameplay Engineer"}
@@ -95,7 +113,7 @@ export default () => {
 								"Build and scale backend systems to serve our millions of players every month."
 							}
 						/>
-						{/* <Card
+						<Card
 							img={generalartist}
 							title={"3D General Artist"}
 							link={
@@ -104,7 +122,7 @@ export default () => {
 							body={
 								"Develop and grow our art assets and integrate them into our projects."
 							}
-						/> */}
+						/>
 						<Card
 							img={animator}
 							title={"3D Animator"}
@@ -115,7 +133,7 @@ export default () => {
 								"Characters, creatures, and monsters, help us make them move."
 							}
 						/>
-					</div>
+					</div> */}
 				</div>
 			</div>
 
