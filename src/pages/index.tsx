@@ -39,14 +39,14 @@ export default () => {
 					<PageHeader text={"stats"} />
 					<StatCard
 						stat="unique game sessions"
-						value="450,000,000+"
-						fallback="450m+"
+						value="600,000,000+"
+						fallback="600m+"
 						strong={true}
 					/>
 					<div className="grid">
-						<StatCard stat="collective favorites" value="1.8m+" />
+						<StatCard stat="collective favorites" value="2.2m+" />
 						<StatCard stat="community members" value="1.4m+" />
-						<StatCard stat="combined likes" value="501k+" />
+						<StatCard stat="combined likes" value="628k+" />
 						<StatCard stat="average game rating" value="86%" />
 					</div>
 				</div>
