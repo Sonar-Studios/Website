@@ -45,7 +45,7 @@ export default () => {
 					/>
 					<div className="grid">
 						<StatCard stat="collective favorites" value="2.2m+" />
-						<StatCard stat="community members" value="1.4m+" />
+						<StatCard stat="community members" value="1.5m+" />
 						<StatCard stat="combined likes" value="628k+" />
 						<StatCard stat="average game rating" value="86%" />
 					</div>
