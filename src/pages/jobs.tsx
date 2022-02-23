@@ -131,7 +131,7 @@ export default () => {
 								"https://sonar-studios.homerun.co/dream-job/en"
 							}
 							body={
-								"Don't see your position open? Apple for your dream job and we may reach out!"
+								"Don't see your position open? Apply for your dream job and we may reach out!"
 							}
 						/>
 						{/* <Card
