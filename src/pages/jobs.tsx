@@ -108,7 +108,7 @@ export default () => {
 							img={generalartist}
 							title={"3D General Artist"}
 							link={
-								"https://sonar-studios.homerun.co/3d-general-artist"
+								"https://sonar-studios.homerun.co/3d-artist"
 							}
 							body={
 								"Develop and grow our art assets and integrate them into our projects."
