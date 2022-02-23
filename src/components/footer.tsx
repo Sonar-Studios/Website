@@ -8,6 +8,9 @@ import discord from "../images/discord.png";
 interface FooterState {}
 interface FooterProps {}
 
+const dateObj = new Date();
+const dateYear = dateObj.getFullYear();
+
 export default class Footer extends Component<FooterProps, FooterState> {
 	render() {
 		return (
@@ -47,7 +50,7 @@ export default class Footer extends Component<FooterProps, FooterState> {
 							<img src={linkedin} className="footer-button" />
 						</a>
 					</div>
-					<div className="footer-legal">© 2021 Sonar Studios LLC</div>
+					<div className="footer-legal">© {dateYear} Sonar Studios LLC</div>
 				</div>
 			</div>
 		);
