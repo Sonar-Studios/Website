@@ -11,6 +11,7 @@ import dreamjob from "../images/dreamjob.png";
 import systemsengineer from "../images/systemsengineer.png";
 import gameplayengineer from "../images/gameplayengineer.png";
 import generalartist from "../images/generalartist.png";
+import conceptartist from "../images/conceptartist.png";
 import animator from "../images/animator.png";
 
 // we use a functional component for initial render because we can't use
@@ -76,7 +77,7 @@ export default () => {
 					</div>
 
 					{/* for 1 job */}
-					<div className="container">
+					{/* <div className="container">
 						<div className="container-item">
 							<Card
 								img={dreamjob}
@@ -89,28 +90,18 @@ export default () => {
 								}
 							/>
 						</div>
-					</div>
+					</div> */}
 
 					{/* for multiple jobs */}
-					{/* <div className="grid">
+					<div className="grid">
 						<Card
 							img={gameplayengineer}
 							title={"Gameplay Engineer"}
 							link={
-								"https://sonar-studios.homerun.co/gameplay-engineer-sr-jr"
+								"https://sonar-studios.homerun.co/gameplay-programmer/en"
 							}
 							body={
 								"Design the next big game feature for millions to experience and enjoy."
-							}
-						/>
-						<Card
-							img={systemsengineer}
-							title={"Systems Engineer"}
-							link={
-								"https://sonar-studios.homerun.co/systems-engineer-sr-jr"
-							}
-							body={
-								"Build and scale backend systems to serve our millions of players every month."
 							}
 						/>
 						<Card
@@ -124,6 +115,26 @@ export default () => {
 							}
 						/>
 						<Card
+							img={conceptartist}
+							title={"2D Concept Artist"}
+							link={
+								"https://sonar-studios.homerun.co/concept-artist-2/en"
+							}
+							body={
+								"Design and work with 3D artists to visualize characters and environments."
+							}
+						/>
+						<Card
+							img={dreamjob}
+							title={"Dream Job"}
+							link={
+								"https://sonar-studios.homerun.co/dream-job/en"
+							}
+							body={
+								"Don't see your position open? Apple for your dream job and we may reach out!"
+							}
+						/>
+						{/* <Card
 							img={animator}
 							title={"3D Animator"}
 							link={
@@ -132,8 +143,8 @@ export default () => {
 							body={
 								"Characters, creatures, and monsters, help us make them move."
 							}
-						/>
-					</div> */}
+						/> */}
+					</div>
 				</div>
 			</div>
 
