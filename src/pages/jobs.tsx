@@ -98,7 +98,7 @@ export default () => {
 							img={gameplayengineer}
 							title={"Gameplay Engineer"}
 							link={
-								"https://sonar-studios.homerun.co/gameplay-programmer/en"
+								"https://sonar-studios.homerun.co/gameplay-engineer/en"
 							}
 							body={
 								"Design the next big game feature for millions to experience and enjoy."
