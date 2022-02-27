@@ -13,6 +13,7 @@ import gameplayengineer from "../images/gameplayengineer.png";
 import generalartist from "../images/generalartist.png";
 import conceptartist from "../images/conceptartist.png";
 import animator from "../images/animator.png";
+import projectmanager from "../images/projectmanager.png";
 
 // we use a functional component for initial render because we can't use
 // hooks in class components, it sucks but that's what we gotta do
@@ -94,6 +95,16 @@ export default () => {
 
 					{/* for multiple jobs */}
 					<div className="grid">
+						<Card
+							img={projectmanager}
+							title={"Project Manager"}
+							link={
+								"https://sonar-studios.homerun.co/project-manager/en"
+							}
+							body={
+								"Take charge of a team and design innovative & unique gameplay mechanics."
+							}
+						/>
 						<Card
 							img={gameplayengineer}
 							title={"Gameplay Engineer"}
