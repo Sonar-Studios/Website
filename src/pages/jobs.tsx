@@ -14,6 +14,7 @@ import generalartist from "../images/generalartist.png";
 import conceptartist from "../images/conceptartist.png";
 import animator from "../images/animator.png";
 import projectmanager from "../images/projectmanager.png";
+import gamedesigner from "../images/gamedesigner.png";
 
 // we use a functional component for initial render because we can't use
 // hooks in class components, it sucks but that's what we gotta do
@@ -95,7 +96,7 @@ export default () => {
 
 					{/* for multiple jobs */}
 					<div className="grid">
-						<Card
+						{/* <Card
 							img={projectmanager}
 							title={"Project Manager"}
 							link={
@@ -104,7 +105,7 @@ export default () => {
 							body={
 								"Take charge of a team and design innovative & unique gameplay mechanics."
 							}
-						/>
+						/> */}
 						<Card
 							img={gameplayengineer}
 							title={"Gameplay Engineer"}
@@ -116,6 +117,16 @@ export default () => {
 							}
 						/>
 						<Card
+							img={gamedesigner}
+							title={"Game Designer"}
+							link={
+								"https://sonar-studios.homerun.co/game-designer/en"
+							}
+							body={
+								"Document and design new features for engineers to bring to life."
+							}
+						/>
+						{/* <Card
 							img={generalartist}
 							title={"3D General Artist"}
 							link={
@@ -134,7 +145,7 @@ export default () => {
 							body={
 								"Design and work with 3D artists to visualize characters and environments."
 							}
-						/>
+						/> */}
 						<Card
 							img={dreamjob}
 							title={"Dream Job"}
