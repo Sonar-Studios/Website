@@ -96,7 +96,7 @@ export default () => {
 
 					{/* for multiple jobs */}
 					<div className="grid">
-						{/* <Card
+						<Card
 							img={projectmanager}
 							title={"Project Manager"}
 							link={
@@ -105,7 +105,7 @@ export default () => {
 							body={
 								"Take charge of a team and design innovative & unique gameplay mechanics."
 							}
-						/> */}
+						/>
 						<Card
 							img={gameplayengineer}
 							title={"Gameplay Engineer"}
@@ -116,7 +116,7 @@ export default () => {
 								"Design the next big game feature for millions to experience and enjoy."
 							}
 						/>
-						<Card
+						{/* <Card
 							img={gamedesigner}
 							title={"Game Designer"}
 							link={
@@ -125,8 +125,8 @@ export default () => {
 							body={
 								"Document and design new features for engineers to bring to life."
 							}
-						/>
-						{/* <Card
+						/> */}
+						<Card
 							img={generalartist}
 							title={"3D General Artist"}
 							link={
@@ -145,7 +145,17 @@ export default () => {
 							body={
 								"Design and work with 3D artists to visualize characters and environments."
 							}
-						/> */}
+						/>
+						<Card
+							img={animator}
+							title={"3D Animator"}
+							link={
+								"https://sonar-studios.homerun.co/3d-animator"
+							}
+							body={
+								"Characters, creatures, and monsters, help us make them move."
+							}
+						/>
 						<Card
 							img={dreamjob}
 							title={"Dream Job"}
@@ -156,16 +166,6 @@ export default () => {
 								"Don't see your position open? Apply for your dream job and we may reach out!"
 							}
 						/>
-						{/* <Card
-							img={animator}
-							title={"3D Animator"}
-							link={
-								"https://sonar-studios.homerun.co/3d-animator"
-							}
-							body={
-								"Characters, creatures, and monsters, help us make them move."
-							}
-						/> */}
 					</div>
 				</div>
 			</div>
