@@ -156,7 +156,7 @@ export default () => {
 								"Characters, creatures, and monsters, help us make them move."
 							}
 						/>
-						<Card
+						{/* <Card
 							img={dreamjob}
 							title={"Dream Job"}
 							link={
@@ -165,7 +165,7 @@ export default () => {
 							body={
 								"Don't see your position open? Apply for your dream job and we may reach out!"
 							}
-						/>
+						/> */}
 					</div>
 				</div>
 			</div>
