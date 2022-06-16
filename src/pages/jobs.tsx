@@ -116,7 +116,7 @@ export default () => {
 								"Design the next big game feature for millions to experience and enjoy."
 							}
 						/>
-						{/* <Card
+						<Card
 							img={gamedesigner}
 							title={"Game Designer"}
 							link={
@@ -125,7 +125,7 @@ export default () => {
 							body={
 								"Document and design new features for engineers to bring to life."
 							}
-						/> */}
+						/>
 						<Card
 							img={generalartist}
 							title={"3D General Artist"}
