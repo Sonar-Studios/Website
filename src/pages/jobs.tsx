@@ -79,7 +79,7 @@ export default () => {
 					</div>
 
 					{/* for 1 job */}
-					{/* <div className="container">
+					<div className="container">
 						<div className="container-item">
 							<Card
 								img={dreamjob}
@@ -92,11 +92,11 @@ export default () => {
 								}
 							/>
 						</div>
-					</div> */}
+					</div>
 
 					{/* for multiple jobs */}
 					<div className="grid">
-						<Card
+						{/* <Card
 							img={projectmanager}
 							title={"Project Manager"}
 							link={
@@ -155,7 +155,7 @@ export default () => {
 							body={
 								"Characters, creatures, and monsters, help us make them move."
 							}
-						/>
+						/> */}
 						{/* <Card
 							img={dreamjob}
 							title={"Dream Job"}
