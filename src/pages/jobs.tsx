@@ -79,7 +79,7 @@ export default () => {
 					</div>
 
 					{/* for 1 job */}
-					<div className="container">
+					{/* <div className="container">
 						<div className="container-item">
 							<Card
 								img={dreamjob}
@@ -92,11 +92,11 @@ export default () => {
 								}
 							/>
 						</div>
-					</div>
+					</div> */}
 
 					{/* for multiple jobs */}
 					<div className="grid">
-						{/* <Card
+						<Card
 							img={projectmanager}
 							title={"Project Manager"}
 							link={
@@ -106,7 +106,7 @@ export default () => {
 								"Take charge of a team and design innovative & unique gameplay mechanics."
 							}
 						/>
-						<Card
+						{/* <Card
 							img={gameplayengineer}
 							title={"Gameplay Engineer"}
 							link={
@@ -156,7 +156,7 @@ export default () => {
 								"Characters, creatures, and monsters, help us make them move."
 							}
 						/> */}
-						{/* <Card
+						<Card
 							img={dreamjob}
 							title={"Dream Job"}
 							link={
@@ -165,7 +165,7 @@ export default () => {
 							body={
 								"Don't see your position open? Apply for your dream job and we may reach out!"
 							}
-						/> */}
+						/>
 					</div>
 				</div>
 			</div>
