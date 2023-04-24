@@ -16,7 +16,7 @@ export default class Header extends Component<HeaderProps, HeaderState> {
 						target="_blank"
 						title="Check out Twin Atlas!"
 					>
-						RedManta Games and Sonar Studios have merged to form
+						RedManta Games And Sonar Studios Have Merged To Form
 						Twin Atlas!
 					</a>
 				</div>
