@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import twitter from "../images/twitter.png";
 import roblox from "../images/roblox.png";
 import linkedin from "../images/linkedin.png";
-import discord from "../images/discord.png";
 
 interface FooterState {}
 interface FooterProps {}
@@ -24,14 +23,6 @@ export default class Footer extends Component<FooterProps, FooterState> {
 							title="Discover our games"
 						>
 							<img src={roblox} className="footer-button" />
-						</a>
-						<a
-							className="footer-button"
-							href="https://discord.gg/sonarhub"
-							target="_blank"
-							title="Join our community"
-						>
-							<img src={discord} className="footer-button" />
 						</a>
 						<a
 							className="footer-button"
